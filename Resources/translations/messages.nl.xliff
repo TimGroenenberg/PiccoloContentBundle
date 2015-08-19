@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="label_company">
+                <source>label_company</source>
+                <target>CH</target>
+            </trans-unit>
+            <trans-unit id="button_new_page">
+                <source>button_new_page</source>
+                <target>Nieuwe pagina</target>
+            </trans-unit>
+            <trans-unit id="button_edit_page">
+                <source>button_edit_page</source>
+                <target>Bewerk pagina</target>
+            </trans-unit>
+            <trans-unit id="button_delete_page">
+                <source>button_delete_page</source>
+                <target>Verwijder pagina</target>
+            </trans-unit>
+            <trans-unit id="label_profile">
+                <source>label_profile</source>
+                <target>Profiel</target>
+            </trans-unit>
+            <trans-unit id="label_more">
+                <source>label_more</source>
+                <target>Meer</target>
+            </trans-unit>
+            <trans-unit id="tab_meta_data">
+                <source>tab_meta_data</source>
+                <target>Pagina informatie</target>
+            </trans-unit>
+            <trans-unit id="tab_header">
+                <source>tab_header</source>
+                <target>Header</target>
+            </trans-unit>
+            <trans-unit id="tab_mainblock">
+                <source>mainBlock</source>
+                <target>Hoofdinhoud</target>
+            </trans-unit>
+            <trans-unit id="tab_sidebarblock">
+                <source>sidebarBlock</source>
+                <target>Zijbalk</target>
+            </trans-unit>
+            <trans-unit id="tab_brandboxBlock">
+                <source>brandboxBlock</source>
+                <target>Brandbox</target>
+            </trans-unit>
+            <trans-unit id="form_label_name">
+                <source>form.label_name</source>
+                <target>Naam</target>
+            </trans-unit>
+            <trans-unit id="form.label_title">
+                <source>form.label_title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_home">
+                <source>form.label_type_home</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_news">
+                <source>form.label_type_news</source>
+                <target>Nieuws</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_standard">
+                <source>form.label_type_standard</source>
+                <target>Standaard</target>
+            </trans-unit>
+            <trans-unit id="form.label_yes">
+                <source>form.label_yes</source>
+                <target>Ja</target>
+            </trans-unit>
+            <trans-unit id="form.label_no">
+                <source>form.label_no</source>
+                <target>Nee</target>
+            </trans-unit>
+            <trans-unit id="form.label_body">
+                <source>form.label_body</source>
+                <target>Inhoud</target>
+            </trans-unit>
+            <trans-unit id="form.label_introductory">
+                <source>form.label_introductory</source>
+                <target>Introductietekst</target>
+            </trans-unit>
+            <trans-unit id="form.label_date">
+                <source>form.label_date</source>
+                <target>Datum</target>
+            </trans-unit>
+            <trans-unit id="form.label_availability">
+                <source>form.label_availability</source>
+                <target>Beschikbaarheid</target>
+            </trans-unit>
+            <trans-unit id="form.label_online">
+                <source>form.label_online</source>
+                <target>Online</target>
+            </trans-unit>
+            <trans-unit id="form.label_label">
+                <source>form.label_label</source>
+                <target>Label</target>
+            </trans-unit>
+            <trans-unit id="form.label_template">
+                <source>form.label_template</source>
+                <target>Type pagina</target>
+            </trans-unit>
+            <trans-unit id="form.label_description">
+                <source>form.label_description</source>
+                <target>Beschrijving</target>
+            </trans-unit>
+            <trans-unit id="form.label_keywords">
+                <source>form.label_keywords</source>
+                <target>Trefwoorden</target>
+            </trans-unit>
+            <trans-unit id="form.label_add_item">
+                <source>form.label_add_item</source>
+                <target>Voeg item toe</target>
+            </trans-unit>
+            <trans-unit id="form.label_delete_menu">
+                <source>form.label_delete_menu</source>
+                <target>Verwijder menu</target>
+            </trans-unit>
+            <trans-unit id="form.label_add_keyword">
+                <source>form.label_add_keyword</source>
+                <target>Trefwoord toevoegen</target>
+            </trans-unit>
+            <trans-unit id="form.label_show_keywords">
+                <source>form.label_show_keywords</source>
+                <target>Trefwoorden weergeven</target>
+            </trans-unit>
+            <trans-unit id="form.label_image">
+                <source>form.label_image</source>
+                <target>Afbeelding</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style">
+                <source>form.label_image_style</source>
+                <target>Positie van afbeelding</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_left">
+                <source>form.label_image_style_left</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_right">
+                <source>form.label_image_style_right</source>
+                <target>Rechts</target>
+            </trans-unit>
+            <trans-unit id="form.action.clear_image">
+                <source>form.action.clear_image</source>
+                <target>Maak deze afbeelding leeg</target>
+            </trans-unit>
+            <trans-unit id="form.label_receiver">
+                <source>form.label_receiver</source>
+                <target>Ontvanger</target>
+            </trans-unit>
+            <trans-unit id="form.label_url">
+                <source>form.label_url</source>
+                <target>URL/Link</target>
+            </trans-unit>
+            <trans-unit id="form.label_window">
+                <source>form.label_window</source>
+                <target>Venster</target>
+            </trans-unit>
+            <trans-unit id="form.label_new_window">
+                <source>form.label_new_window</source>
+                <target>Nieuw venster</target>
+            </trans-unit>
+            <trans-unit id="form.label_same_window">
+                <source>form.label_same_window</source>
+                <target>Zelfde venster</target>
+            </trans-unit>
+            <trans-unit id="form.label_logo">
+                <source>form.label_logo</source>
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="form.label_navigation">
+                <source>form.label_navigation</source>
+                <target>Menu</target>
+            </trans-unit>
+            <trans-unit id="add_block">
+                <source>add_block</source>
+                <target>Nieuw contentblok toevoegen</target>
+            </trans-unit>
+            <trans-unit id="loading">
+                <source>loading</source>
+                <target>Laden..</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <source>save</source>
+                <target>Opslaan</target>
+            </trans-unit>
+            <trans-unit id="saving">
+                <source>saving</source>
+                <target>Bezig met opslaan..</target>
+            </trans-unit>
+            <trans-unit id="label_mediamanager">
+                <source>label_mediamanager</source>
+                <target>Mediamanager</target>
+            </trans-unit>
+            <trans-unit id="label_pageadmin">
+                <source>label_pageadmin</source>
+                <target>Pagina beheer</target>
+            </trans-unit>
+            <trans-unit id="label_search">
+                <source>label_search</source>
+                <target>Zoeken</target>
+            </trans-unit>
+            <trans-unit id="label_logout">
+                <source>label_logout</source>
+                <target>Uitloggen</target>
+            </trans-unit>
+            <trans-unit id="cancel">
+                <source>cancel</source>
+                <target>Annuleren</target>
+            </trans-unit>
+            <trans-unit id="label_search_results">
+                <source>label_search_results</source>
+                <target>Zoekresultaten</target>
+            </trans-unit>
+            <trans-unit id="info_search_results">
+                <source>info_search_results</source>
+                <target>Uw zoekterm heeft de volgende resultaten opgehaald:</target>
+            </trans-unit>
+            <trans-unit id="no_search_results">
+                <source>no_search_results</source>
+                <target>Er zijn geen resultaten gevonden.</target>
+            </trans-unit>
+            <trans-unit id="form.label_email_placeholder">
+                <source>form.label_email_placeholder</source>
+                <target>E-mail</target>
+            </trans-unit>
+            <trans-unit id="form.label_password_placeholder">
+                <source>form.label_password_placeholder</source>
+                <target>Wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="label_login">
+                <source>label_login</source>
+                <target>Aanmelden</target>
+            </trans-unit>
+            <trans-unit id="remember_me">
+                <source>remember_me</source>
+                <target>Onthoud mijn gegevens</target>
+            </trans-unit>
+            <trans-unit id="login_more_info">
+                <source>login_more_info</source>
+                <target>Meer informatie</target>
+            </trans-unit>
+            <trans-unit id="optimal_image_size">
+                <source>optimal_image_size</source>
+                <target>Optimale resolutie</target>
+            </trans-unit>
+            <trans-unit id="browse_files">
+                <source>browse_files</source>
+                <target>Bladeren</target>
+            </trans-unit>
+            <trans-unit id="label.admin">
+                <source>label.admin</source>
+                <target>Piccolo Beheer</target>
+            </trans-unit>
+            <trans-unit id="label.click_here">
+                <source>label.click_here</source>
+                <target>Klik hier</target>
+            </trans-unit>
+            <trans-unit id="error.name_invalid_characters">
+                <source>error_invalid_characters</source>
+                <target>Naam bevat onjuiste tekens</target>
+            </trans-unit>
+            <trans-unit id="error.name_invalid_length">
+                <source>error_invalid_length</source>
+                <target>Naam bevat een onjuiste lengte</target>
+            </trans-unit>
+            <trans-unit id="error.required_action_fields">
+                <source>error.required_action_fields</source>
+                <target>Volgende veld(en) vraagt om een wijziging</target>
+            </trans-unit>
+            <trans-unit id="error.empty_body">
+                <source>error.empty_body</source>
+                <target>Het content block moet inhoud bevatten</target>
+            </trans-unit>
+            <trans-unit id="error.empty_fields">
+                <source>error.empty_fields</source>
+                <target>U heeft een vereist veld leeg gelaten</target>
+            </trans-unit>
+            <trans-unit id="contentblock.text">
+                <source>contentblock.text</source>
+                <target>Tekst</target>
+            </trans-unit>
+            <trans-unit id="contentblock.image">
+                <source>contentblock.image</source>
+                <target>Afbeelding</target>
+            </trans-unit>
+            <trans-unit id="contentblock.textimage">
+                <source>contentblock.textimage</source>
+                <target>Tekst + Afbeelding</target>
+            </trans-unit>
+            <trans-unit id="contentblock.contact">
+                <source>contentblock.contact</source>
+                <target>Contactformulier</target>
+            </trans-unit>
+            <trans-unit id="contentblock.news">
+                <source>contentblock.news</source>
+                <target>Nieuws</target>
+            </trans-unit>
+            <trans-unit id="text-block">
+                <source>connect_holland_piccolo.contentblock_admin</source>
+                <target>Tekst</target>
+            </trans-unit>
+            <trans-unit id="imagetext-block">
+                <source>connect_holland_piccolo.imagecontentblock_admin</source>
+                <target>Tekst + afbeelding</target>
+            </trans-unit>
+            <trans-unit id="image-block">
+                <source>connect_holland_piccolo.imageblock_admin</source>
+                <target>Afbeelding</target>
+            </trans-unit>
+            <trans-unit id="contactform-block">
+                <source>connect_holland_piccolo.contactblock_admin</source>
+                <target>Contactformulier</target>
+            </trans-unit>
+            <trans-unit id="latestnews-block">
+                <source>connect_holland_piccolo.latestnewsblock_admin</source>
+                <target>Laatste nieuws</target>
+            </trans-unit>
+            <trans-unit id="call-to-action-block">
+                <source>connect_holland_piccolo.calltoactionblock_admin</source>
+                <target>Actie</target>
+            </trans-unit>
+            <trans-unit id="media-block">
+                <source>connect_holland_piccolo.mediablock_admin</source>
+                <target>Media</target>
+            </trans-unit>
+            <trans-unit id="gallery-block">
+                <source>connect_holland_piccolo.galleryblock_admin</source>
+                <target>Gallerij</target>
+            </trans-unit>
+            <trans-unit id="brandbox-block">
+                <source>connect_holland_piccolo.brandboxblock_admin</source>
+                <target>Brandbox</target>
+            </trans-unit>
+            <trans-unit id="highlight-block">
+                <source>connect_holland_piccolo.highlightblock_admin</source>
+                <target>Highlight</target>
+            </trans-unit>
+            <trans-unit id="news-overview">
+                <source>connect_holland_piccolo.newsoverviewblock_admin</source>
+                <target>Nieuws overzicht</target>
+            </trans-unit>
+            <trans-unit id="google-map">
+                <source>connect_holland_piccolo.googlemapblock_admin</source>
+                <target>Google Map</target>
+            </trans-unit>
+            <trans-unit id="close">
+                <source>close</source>
+                <target>Sluiten</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_title">
+                <source>page_already_exists_title</source>
+                <target>Pagina bestaat al</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_body">
+                <source>page_already_exists_body</source>
+                <target>De pagina die u probeert aan te maken bestaat al. Kies alstublieft voor een andere paginanaam.</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_back">
+                <source>page_already_exists_back</source>
+                <target>Navigeer terug naar de vorige pagina</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_subtitle">
+                <source>form.label_first_subtitle</source>
+                <target>Subtitel (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_subtitle">
+                <source>form.label_second_subtitle</source>
+                <target>Subtitel (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_subtitle">
+                <source>form.label_fthird_subtitle</source>
+                <target>Subtitel (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_subtitle">
+                <source>form.label_fourth_subtitle</source>
+                <target>Subtitel (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_subtitle">
+                <source>form.label_fifth_subtitle</source>
+                <target>Subtitel (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_subtitle">
+                <source>form.label_sixth_subtitle</source>
+                <target>Subtitel (6)</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_body">
+                <source>form.label_first_body</source>
+                <target>Inhoud (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_body">
+                <source>form.label_second_body</source>
+                <target>Inhoud (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_body">
+                <source>form.label_third_body</source>
+                <target>Inhoud (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_body">
+                <source>form.label_fourth_body</source>
+                <target>Inhoud (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_body">
+                <source>form.label_fifth_body</source>
+                <target>Inhoud (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_body">
+                <source>form.label_sixth_body</source>
+                <target>Inhoud (6)</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_url">
+                <source>form.label_first_url</source>
+                <target>URL/Link (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_url">
+                <source>form.label_second_url</source>
+                <target>URL/Link (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_url">
+                <source>form.label_third_url</source>
+                <target>URL/Link (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_url">
+                <source>form.label_fourth_url</source>
+                <target>URL/Link (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_url">
+                <source>form.label_fifth_url</source>
+                <target>URL/Link (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_url">
+                <source>form.label_sixth_url</source>
+                <target>URL/Link (6)</target>
+            </trans-unit>
+            <trans-unit id="error.invalid_characters_url">
+                <source>error.invalid_characters_url</source>
+                <target>De naam mag alleen letters/cijfers, spaties en streepjes (-) bevatten</target>
+            </trans-unit>
+            <trans-unit id="error.length_url">
+                <source>error.length_url</source>
+                <target>De naam moet minimaal 2 of maximaal 60 karakters bevatten</target>
+            </trans-unit>
+            <trans-unit id="label.no_data">
+                <source>label.no_data</source>
+                <target>Geen inhoud</target>
+            </trans-unit>
+            <trans-unit id="label.no_title">
+                <source>label.no_title</source>
+                <target>Geen titel</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_content_block">
+                <source>dashboard.label_content_block</source>
+                <target>Tekst blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_image_block">
+                <source>dashboard.label_image_block</source>
+                <target>Afbeelding blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_image_content_block">
+                <source>dashboard.label_image_content_block</source>
+                <target>Tekst + afbeelding blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_media_block">
+                <source>dashboard.label_media_block</source>
+                <target>Media blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_brandbox_block">
+                <source>dashboard.label_brandbox_block</source>
+                <target>Brandbox blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_contactform_block">
+                <source>dashboard.label_contactform_block</source>
+                <target>Contact blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_calltoaction_block">
+                <source>dashboard.label_calltoaction_block</source>
+                <target>Actie blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_gallery_block">
+                <source>dashboard.label_gallery_block</source>
+                <target>Gallerij blok</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_latestnews_block">
+                <source>dashboard.label_latestnews_block</source>
+                <target>Laatste nieuws blok</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style">
+                <source>form.label_latestnews_style</source>
+                <target>Laatste nieuws grootte</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style_normal">
+                <source>form.label_latestnews_style_normal</source>
+                <target>Normaal</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style_compact">
+                <source>form.label_latestnews_style_compact</source>
+                <target>Compact</target>
+            </trans-unit>
+            <trans-unit id="label.no_content">
+                <source>label.no_content</source>
+                <target>Geen inhoud</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_large">
+                <source>form.label_image_style_large</source>
+                <target>Groot</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_small">
+                <source>form.label_image_style_small</source>
+                <target>Klein</target>
+            </trans-unit>
+            <trans-unit id="title_help">
+                <source>title_help</source>
+                <target>Geef een titel voor het nieuwe content blok</target>
+            </trans-unit>
+            <trans-unit id="label_help">
+                <source>label_help</source>
+                <target>Geef een tekst op die weergeven wordt op de knop</target>
+            </trans-unit>
+            <trans-unit id="url_help">
+                <source>url_help</source>
+                <target>e.g. http://www.voorbeeld.nl of de naam van een pagina op uw website, e.g. voorbeeld</target>
+            </trans-unit>
+            <trans-unit id="window_help">
+                <source>window_help</source>
+                <target>Geef aan of de pagina wordt geopend in een nieuw venster of in het huidige</target>
+            </trans-unit>
+            <trans-unit id="page_does_not_exist">
+                <source>page_does_not_exist</source>
+                <target>Deze pagina bestaat niet.</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_image">
+                <source>label.recommended_size_image</source>
+                <target>500 x 300 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_galleryitem">
+                <source>label.recommended_size_galleryitem</source>
+                <target>300 x 300 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_logo">
+                <source>label.recommended_size_logo</source>
+                <target>300 x 150 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_brandboxImage">
+                <source>label.recommended_size_brandboxImage</source>
+                <target>1920 x 560 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_default">
+                <source>label.recommended_size_default</source>
+                <target>300 x 200 px</target>
+            </trans-unit>
+            <trans-unit id="page_offline">
+                <source>page_offline</source>
+                <target>Deze pagina is momenteel offline</target>
+            </trans-unit>
+            <trans-unit id="form.label_maintenance_message">
+                <source>form.label_maintenance_message</source>
+                <target>Onderhoudsbericht</target>
+            </trans-unit>
+            <trans-unit id="modify_account">
+                <source>modify_account</source>
+                <target>Account instellingen</target>
+            </trans-unit>
+            <trans-unit id="manage_users">
+                <source>manage_users</source>
+                <target>Alle gebruikers beheren</target>
+            </trans-unit>
+            <trans-unit id="all_users">
+                <source>all_users</source>
+                <target>Alle gebruikers</target>
+            </trans-unit>
+            <trans-unit id="username">
+                <source>username</source>
+                <target>Gebruikersnaam</target>
+            </trans-unit>
+            <trans-unit id="selected_user">
+                <source>selected_user</source>
+                <target>Geselecteerde gebruiker</target>
+            </trans-unit>
+            <trans-unit id="settings_saved">
+                <source>settings_saved</source>
+                <target>De instellingen zijn succesvol opgeslagen.</target>
+            </trans-unit>
+            <trans-unit id="username_already_used">
+                <source>username_already_used</source>
+                <target>De gekozen gebruikersnaam is al in gebruik.</target>
+            </trans-unit>
+            <trans-unit id="current_password_incorrect">
+                <source>current_password_incorrect</source>
+                <target>Het huidige wachtwoord is incorrect.</target>
+            </trans-unit>
+            <trans-unit id="new_passwords_dont_match">
+                <source>new_passwords_dont_match</source>
+                <target>Het gekozen wachtwoord is niet hetzelfde als de bevestiging van het nieuwe wachtwoord.</target>
+            </trans-unit>
+            <trans-unit id="placeholder_new_password">
+                <source>placeholder_new_password</source>
+                <target>Nieuw wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="confirm_new_password">
+                <source>confirm_new_password</source>
+                <target>Bevestig nieuw wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="placeholder_current_password">
+                <source>placeholder_current_password</source>
+                <target>Huidig wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="maintenance_message">
+                <source>maintenance_message</source>
+                <target>Deze pagina is niet bereikbaar</target>
+            </trans-unit>
+            <trans-unit id="label_elfinder_redirect">
+                <source>label_elfinder_redirect</source>
+                <target>Back to home</target>
+            </trans-unit>
+            <trans-unit id="form.label_address">
+                <source>form.label_address</source>
+                <target>Adres</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

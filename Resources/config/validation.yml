@@ -1,0 +1,5 @@
+ConnectHolland\PiccoloContentBundle\Document\StandardPage:
+    properties:
+        name:
+            - NotBlank: ~
+            - ConnectHolland\PiccoloContentBundle\Validator\Constraints\ContainsAlphanumeric: ~

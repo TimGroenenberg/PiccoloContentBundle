@@ -1,0 +1,46 @@
+{% extends 'CmfBlockBundle:Block:block_base.html.twig' %}
+{% block block %}
+
+{% if block.style == 'compact' %}
+	<div class="compact-news">
+{% endif %}
+    {% if block.title %}
+	    <div class="content-block-title">
+	        <h2>{{ block.title|raw }}</h2>
+	    </div>
+    {% endif %}
+
+	<div class="content-block-content">
+	    <div class="content-block-body" style="overflow:hidden;">
+		    <div class="news-items">
+			    <img src="{{ asset('/bundles/connecthollandmain/img/filler-200-200.jpg') }}" style="float:left;margin-right: 25px;">
+			    {# Set maximimum news items shown #}
+			    {% set maxNewsItems = 4 %}
+
+			    <ul>
+			    {% for newsItem in newsItems %}
+				    {% if maxNewsItems > 0 %}
+				    	<div><li>
+					    	<p><a href="{{ newsItem[0] }}">
+					    		{% if newsItem[1] %}
+					    			{{ newsItem[1] }}
+					    		{% else %}
+					    			{% trans %}label.no_title{% endtrans %}
+					    		{% endif %}
+					    	</a><br />
+							{{ newsItem[2]|split(' ')[0] }}</p>
+					    </li></div>
+					    {% set maxNewsItems = maxNewsItems - 1 %}
+					{% endif %} 
+	            {% else %}
+	            	{% trans %}label.no_data{% endtrans %}
+	            {% endfor %}
+	            </ul>
+
+		    </div>
+	    </div>
+    </div>
+{% if block.style == 'compact' %}
+	</div>
+{% endif %}
+{% endblock %}

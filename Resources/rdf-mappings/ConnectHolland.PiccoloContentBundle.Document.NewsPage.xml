@@ -1,0 +1,19 @@
+<type
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    typeof="sioc:Post"
+>
+    <children>
+        <property property="dcterms:title" identifier="title" tag-name="h1"/>
+        <property property="sioc:content" identifier="body" />
+        <property property="sioc:content" identifier="createDate" />
+        <property property="sioc:content" identifier="online" />
+        <property property="sioc:content" identifier="maintenanceMessage" />
+        <property property="date" identifier="date" />
+        <property property="sioc:content" identifier="keywords" />
+        <property property="sioc:content" identifier="description" />
+        <property property="sioc:content" identifier="keywords" />
+        <property property="sioc:content" identifier="showKeywords" />
+    </children>
+</type>

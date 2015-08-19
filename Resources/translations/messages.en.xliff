@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="label_company">
+                <source>label_company</source>
+                <target>CH</target>
+            </trans-unit>
+            <trans-unit id="button_new_page">
+                <source>button_new_page</source>
+                <target>New page</target>
+            </trans-unit>
+            <trans-unit id="button_edit_page">
+                <source>button_edit_page</source>
+                <target>Edit page</target>
+            </trans-unit>
+            <trans-unit id="button_delete_page">
+                <source>button_delete_page</source>
+                <target>Delete page</target>
+            </trans-unit>
+            <trans-unit id="label_profile">
+                <source>label_profile</source>
+                <target>Profile</target>
+            </trans-unit>
+            <trans-unit id="label_more">
+                <source>label_more</source>
+                <target>More</target>
+            </trans-unit>
+            <trans-unit id="tab_meta_data">
+                <source>tab_meta_data</source>
+                <target>Page info</target>
+            </trans-unit>
+            <trans-unit id="tab_header">
+                <source>tab_header</source>
+                <target>Header</target>
+            </trans-unit>
+            <trans-unit id="tab_mainblock">
+                <source>mainBlock</source>
+                <target>Main content</target>
+            </trans-unit>
+            <trans-unit id="tab_sidebarblock">
+                <source>sidebarBlock</source>
+                <target>Sidebar</target>
+            </trans-unit>
+            <trans-unit id="tab_brandboxBlock">
+                <source>brandboxBlock</source>
+                <target>Brandbox</target>
+            </trans-unit>
+            <trans-unit id="form.label_yes">
+                <source>form.label_yes</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="form.label_no">
+                <source>form.label_no</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_home">
+                <source>form.label_type_home</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_news">
+                <source>form.label_type_news</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="form.label_type_standard">
+                <source>form.label_type_standard</source>
+                <target>Standard</target>
+            </trans-unit>
+            <trans-unit id="form_label_name">
+                <source>form.label_name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="form.label_title">
+                <source>form.label_title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="form.label_body">
+                <source>form.label_body</source>
+                <target>Body</target>
+            </trans-unit>
+            <trans-unit id="form.label_introductory">
+                <source>form.label_introductory</source>
+                <target>Introductory text</target>
+            </trans-unit>
+            <trans-unit id="form.label_date">
+                <source>form.label_date</source>
+                <target>Date</target>
+            </trans-unit>
+            <trans-unit id="form.label_availability">
+                <source>form.label_availability</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="form.label_online">
+                <source>form.label_online</source>
+                <target>Online</target>
+            </trans-unit>
+            <trans-unit id="form.label_label">
+                <source>form.label_label</source>
+                <target>Label</target>
+            </trans-unit>
+            <trans-unit id="form.label_template">
+                <source>form.label_template</source>
+                <target>Page type</target>
+            </trans-unit>
+            <trans-unit id="form.label_description">
+                <source>form.label_description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="form.label_keywords">
+                <source>form.label_keywords</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="form.label_add_item">
+                <source>form.label_add_item</source>
+                <target>Add item</target>
+            </trans-unit>
+            <trans-unit id="form.label_delete_menu">
+                <source>form.label_delete_menu</source>
+                <target>Delete menu</target>
+            </trans-unit>
+            <trans-unit id="form.label_add_keyword">
+                <source>form.label_add_keyword</source>
+                <target>Add keyword</target>
+            </trans-unit>
+            <trans-unit id="form.label_show_keywords">
+                <source>form.label_show_keywords</source>
+                <target>Show keywords</target>
+            </trans-unit>
+            <trans-unit id="form.label_image">
+                <source>form.label_image</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style">
+                <source>form.label_image_style</source>
+                <target>Image position</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_left">
+                <source>form.label_image_style_left</source>
+                <target>Left</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_right">
+                <source>form.label_image_style_right</source>
+                <target>Right</target>
+            </trans-unit>
+            <trans-unit id="form.action.clear_image">
+                <source>form.action.clear_image</source>
+                <target>Clear image</target>
+            </trans-unit>
+            <trans-unit id="form.label_receiver">
+                <source>form.label_receiver</source>
+                <target>Receiver</target>
+            </trans-unit>
+            <trans-unit id="form.label_url">
+                <source>form.label_url</source>
+                <target>URL/Link</target>
+            </trans-unit>
+            <trans-unit id="form.label_window">
+                <source>form.label_window</source>
+                <target>Window</target>
+            </trans-unit>
+            <trans-unit id="form.label_new_window">
+                <source>form.label_new_window</source>
+                <target>New window</target>
+            </trans-unit>
+            <trans-unit id="form.label_same_window">
+                <source>form.label_same_window</source>
+                <target>Same window</target>
+            </trans-unit>
+            <trans-unit id="form.label_logo">
+                <source>form.label_logo</source>
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="form.label_navigation">
+                <source>form.label_navigation</source>
+                <target>Menu</target>
+            </trans-unit>
+            <trans-unit id="add_block">
+                <source>add_block</source>
+                <target>Add new contentblock</target>
+            </trans-unit>
+            <trans-unit id="loading">
+                <source>loading</source>
+                <target>Loading..</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <source>save</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="saving">
+                <source>saving</source>
+                <target>Saving..</target>
+            </trans-unit>
+            <trans-unit id="label_mediamanager">
+                <source>label_mediamanager</source>
+                <target>Mediamanager</target>
+            </trans-unit>
+            <trans-unit id="label_pageadmin">
+                <source>label_pageadmin</source>
+                <target>Pages manager</target>
+            </trans-unit>
+            <trans-unit id="label_search">
+                <source>label_search</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="label_logout">
+                <source>label_logout</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="cancel">
+                <source>cancel</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="label_search_results">
+                <source>label_search_results</source>
+                <target>Search results</target>
+            </trans-unit>
+            <trans-unit id="info_search_results">
+                <source>info_search_results</source>
+                <target>Your keyword returned the following results:</target>
+            </trans-unit>
+            <trans-unit id="no_search_results">
+                <source>no_search_results</source>
+                <target>No results have been found.</target>
+            </trans-unit>
+            <trans-unit id="form.label_email_placeholder">
+                <source>form.label_email_placeholder</source>
+                <target>E-mail</target>
+            </trans-unit>
+            <trans-unit id="form.label_password_placeholder">
+                <source>form.label_password_placeholder</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="label_login">
+                <source>label_login</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="remember_me">
+                <source>remember_me</source>
+                <target>Remember me</target>
+            </trans-unit>
+            <trans-unit id="login_more_info">
+                <source>login_more_info</source>
+                <target>More info</target>
+            </trans-unit>
+            <trans-unit id="optimal_image_size">
+                <source>optimal_image_size</source>
+                <target>Optimal resolution</target>
+            </trans-unit>
+            <trans-unit id="browse_files">
+                <source>browse_files</source>
+                <target>Browse</target>
+            </trans-unit>
+            <trans-unit id="label.admin">
+                <source>label.admin</source>
+                <target>Piccolo Admin</target>
+            </trans-unit>
+            <trans-unit id="label.click_here">
+                <source>label.click_here</source>
+                <target>Click here</target>
+            </trans-unit>
+            <trans-unit id="error.name_invalid_characters">
+                <source>error.name_invalid_characters</source>
+                <target>Name contains invalid characters</target>
+            </trans-unit>
+            <trans-unit id="error.name_invalid_length">
+                <source>error.name_invalid_length</source>
+                <target>Name has an invalid length</target>
+            </trans-unit>
+            <trans-unit id="error.required_action_fields">
+                <source>error.required_action_fields</source>
+                <target>The following field(s) require your action</target>
+            </trans-unit>
+            <trans-unit id="error.empty_body">
+                <source>error.empty_body</source>
+                <target>The block needs to contain body text</target>
+            </trans-unit>
+            <trans-unit id="error.empty_fields">
+                <source>error.empty_fields</source>
+                <target>A required field is empty</target>
+            </trans-unit>
+            <trans-unit id="contentblock.text">
+                <source>contentblock.text</source>
+                <target>Text</target>
+            </trans-unit>
+            <trans-unit id="contentblock.image">
+                <source>contentblock.image</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="contentblock.textimage">
+                <source>contentblock.textimage</source>
+                <target>Text + Image</target>
+            </trans-unit>
+            <trans-unit id="contentblock.contact">
+                <source>contentblock.contact</source>
+                <target>Contact form</target>
+            </trans-unit>
+            <trans-unit id="contentblock.news">
+                <source>contentblock.news</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="text-block">
+                <source>connect_holland_piccolo.contentblock_admin</source>
+                <target>Text</target>
+            </trans-unit>
+            <trans-unit id="imagetext-block">
+                <source>connect_holland_piccolo.imagecontentblock_admin</source>
+                <target>Text + image</target>
+            </trans-unit>
+            <trans-unit id="image-block">
+                <source>connect_holland_piccolo.imageblock_admin</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="contactform-block">
+                <source>connect_holland_piccolo.contactblock_admin</source>
+                <target>Contact form</target>
+            </trans-unit>
+            <trans-unit id="latestnews-block">
+                <source>connect_holland_piccolo.latestnewsblock_admin</source>
+                <target>Latest news</target>
+            </trans-unit>
+            <trans-unit id="call-to-action-block">
+                <source>connect_holland_piccolo.calltoactionblock_admin</source>
+                <target>Action</target>
+            </trans-unit>
+            <trans-unit id="media-block">
+                <source>connect_holland_piccolo.mediablock_admin</source>
+                <target>Media</target>
+            </trans-unit>
+            <trans-unit id="gallery-block">
+                <source>connect_holland_piccolo.galleryblock_admin</source>
+                <target>Gallery</target>
+            </trans-unit>
+            <trans-unit id="brandbox-block">
+                <source>connect_holland_piccolo.brandboxblock_admin</source>
+                <target>Brandbox</target>
+            </trans-unit>
+            <trans-unit id="highlight-block">
+                <source>connect_holland_piccolo.highlightblock_admin</source>
+                <target>Highlight</target>
+            </trans-unit>
+            <trans-unit id="news-overview">
+                <source>connect_holland_piccolo.newsoverviewblock_admin</source>
+                <target>News overview</target>
+            </trans-unit>
+            <trans-unit id="google-map">
+                <source>connect_holland_piccolo.googlemapblock_admin</source>
+                <target>Google Map</target>
+            </trans-unit>
+            <trans-unit id="close">
+                <source>close</source>
+                <target>Close</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_title">
+                <source>page_already_exists_title</source>
+                <target>Page already exists</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_body">
+                <source>page_already_exists_body</source>
+                <target>The page that you are trying to create already exists. Please choose a different page name.</target>
+            </trans-unit>
+            <trans-unit id="page_already_exists_back">
+                <source>page_already_exists_back</source>
+                <target>Navigate back to previous page</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_subtitle">
+                <source>form.label_first_subtitle</source>
+                <target>Subtitle (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_subtitle">
+                <source>form.label_second_subtitle</source>
+                <target>Subtitle (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_subtitle">
+                <source>form.label_third_subtitle</source>
+                <target>Subtitle (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_subtitle">
+                <source>form.label_fourth_subtitle</source>
+                <target>Subtitle (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_subtitle">
+                <source>form.label_fifth_subtitle</source>
+                <target>Subtitle (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_subtitle">
+                <source>form.label_sixth_subtitle</source>
+                <target>Subtitle (6)</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_body">
+                <source>form.label_first_body</source>
+                <target>Body (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_body">
+                <source>form.label_second_body</source>
+                <target>Body (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_body">
+                <source>form.label_third_body</source>
+                <target>Body (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_body">
+                <source>form.label_fourth_body</source>
+                <target>Body (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_body">
+                <source>form.label_fifth_body</source>
+                <target>Body (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_body">
+                <source>form.label_sixth_body</source>
+                <target>Body (6)</target>
+            </trans-unit>
+            <trans-unit id="form.label_first_url">
+                <source>form.label_first_url</source>
+                <target>URL/Link (1)</target>
+            </trans-unit>
+            <trans-unit id="form.label_second_url">
+                <source>form.label_second_url</source>
+                <target>URL/Link (2)</target>
+            </trans-unit>
+            <trans-unit id="form.label_third_url">
+                <source>form.label_third_url</source>
+                <target>URL/Link (3)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fourth_url">
+                <source>form.label_fourth_url</source>
+                <target>URL/Link (4)</target>
+            </trans-unit>
+            <trans-unit id="form.label_fifth_url">
+                <source>form.label_fifth_url</source>
+                <target>URL/Link (5)</target>
+            </trans-unit>
+            <trans-unit id="form.label_sixth_url">
+                <source>form.label_sixth_url</source>
+                <target>URL/Link (6)</target>
+            </trans-unit>
+            <trans-unit id="error.invalid_characters_url">
+                <source>error.invalid_characters_url</source>
+                <target>The name can only hold letters/numbers, spaces and dashes</target>
+            </trans-unit>
+            <trans-unit id="error.length_url">
+                <source>error.length_url</source>
+                <target>The name should be between 2 or 60 characters long</target>
+            </trans-unit>
+            <trans-unit id="label.no_data">
+                <source>label.no_data</source>
+                <target>No data</target>
+            </trans-unit>
+            <trans-unit id="label.no_title">
+                <source>label.no_title</source>
+                <target>No title</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_content_block">
+                <source>dashboard.label_content_block</source>
+                <target>Text block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_image_block">
+                <source>dashboard.label_image_block</source>
+                <target>Image block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_image_content_block">
+                <source>dashboard.label_image_content_block</source>
+                <target>Text + image block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_media_block">
+                <source>dashboard.label_media_block</source>
+                <target>Media block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_brandbox_block">
+                <source>dashboard.label_brandbox_block</source>
+                <target>Brandbox block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_contactform_block">
+                <source>dashboard.label_contactform_block</source>
+                <target>Contact block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_calltoaction_block">
+                <source>dashboard.label_calltoaction_block</source>
+                <target>Action block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_gallery_block">
+                <source>dashboard.label_gallery_block</source>
+                <target>Gallery block</target>
+            </trans-unit>
+            <trans-unit id="dashboard.label_latestnews_block">
+                <source>dashboard.label_latestnews_block</source>
+                <target>Latest news block</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style">
+                <source>form.label_latestnews_style</source>
+                <target>Latest news size</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style_normal">
+                <source>form.label_latestnews_style_normal</source>
+                <target>Normal</target>
+            </trans-unit>
+            <trans-unit id="form.label_latestnews_style_compact">
+                <source>form.label_latestnews_style_compact</source>
+                <target>Compact</target>
+            </trans-unit>
+            <trans-unit id="label.no_content">
+                <source>label.no_content</source>
+                <target>No content</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_large">
+                <source>form.label_image_style_large</source>
+                <target>Large</target>
+            </trans-unit>
+            <trans-unit id="form.label_image_style_small">
+                <source>form.label_image_style_small</source>
+                <target>Small</target>
+            </trans-unit>
+            <trans-unit id="title_help">
+                <source>title_help</source>
+                <target>Assign a title for this content block</target>
+            </trans-unit>
+            <trans-unit id="label_help">
+                <source>label_help</source>
+                <target>Assign a label for this content block that will be shown on the button</target>
+            </trans-unit>
+            <trans-unit id="url_help">
+                <source>url_help</source>
+                <target>e.g. http://www.example.com or place the name of a page in your website, e.g. example</target>
+            </trans-unit>
+            <trans-unit id="window_help">
+                <source>window_help</source>
+                <target>After clicking on the assigned link, let the page be opened in a new window or the current</target>
+            </trans-unit>
+            <trans-unit id="page_does_not_exist">
+                <source>page_does_not_exist</source>
+                <target>This page does not exist.</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_image">
+                <source>label.recommended_size_image</source>
+                <target>500 x 300 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_galleryitem">
+                <source>label.recommended_size_galleryitem</source>
+                <target>300 x 300 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_logo">
+                <source>label.recommended_size_logo</source>
+                <target>300 x 150 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_brandboxImage">
+                <source>label.recommended_size_brandboxImage</source>
+                <target>1920 x 560 px</target>
+            </trans-unit>
+            <trans-unit id="label.recommended_size_default">
+                <source>label.recommended_size_default</source>
+                <target>300 x 200 px</target>
+            </trans-unit>
+            <trans-unit id="page_offline">
+                <source>page_offline</source>
+                <target>This page is currently offline</target>
+            </trans-unit>
+            <trans-unit id="form.label_maintenance_message">
+                <source>form.label_maintenance_message</source>
+                <target>Maintenance message</target>
+            </trans-unit>
+            <trans-unit id="modify_account">
+                <source>modify_account</source>
+                <target>Account settings</target>
+            </trans-unit>
+            <trans-unit id="manage_users">
+                <source>manage_users</source>
+                <target>Manage all users</target>
+            </trans-unit>
+            <trans-unit id="all_users">
+                <source>all_users</source>
+                <target>All users</target>
+            </trans-unit>
+            <trans-unit id="username">
+                <source>username</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="selected_user">
+                <source>selected_user</source>
+                <target>Selected user</target>
+            </trans-unit>
+            <trans-unit id="settings_saved">
+                <source>settings_saved</source>
+                <target>The settings have been successfully saved.</target>
+            </trans-unit>
+            <trans-unit id="username_already_used">
+                <source>username_already_used</source>
+                <target>The chosen username is already in use.</target>
+            </trans-unit>
+            <trans-unit id="current_password_incorrect">
+                <source>current_password_incorrect</source>
+                <target>The current password is incorrect.</target>
+            </trans-unit>
+            <trans-unit id="new_passwords_dont_match">
+                <source>new_passwords_dont_match</source>
+                <target>The new password does not match the confirm password.</target>
+            </trans-unit>
+            <trans-unit id="placeholder_new_password">
+                <source>placeholder_new_password</source>
+                <target>New password</target>
+            </trans-unit>
+            <trans-unit id="confirm_new_password">
+                <source>confirm_new_password</source>
+                <target>Confirm new password</target>
+            </trans-unit>
+            <trans-unit id="placeholder_current_password">
+                <source>placeholder_current_password</source>
+                <target>Current password</target>
+            </trans-unit>
+            <trans-unit id="maintenance_message">
+                <source>maintenance_message</source>
+                <target>This page is currently offline</target>
+            </trans-unit>
+            <trans-unit id="label_elfinder_redirect">
+                <source>label_elfinder_redirect</source>
+                <target>Back to home</target>
+            </trans-unit>
+            <trans-unit id="form.label_address">
+                <source>form.label_address</source>
+                <target>Address</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

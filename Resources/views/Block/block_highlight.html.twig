@@ -1,0 +1,25 @@
+{% extends 'CmfBlockBundle:Block:block_base.html.twig' %}
+{% block block %}
+
+    <div class="content-block-content">
+        <div class="highlight-block">
+            <div class="highlight-block-top"> 
+                <div class="left">
+                    {{ block.title }}
+                </div>
+                <div class="right">
+                    {{ highlight_data[3]|date('d-m-Y') }}
+                </div>
+            </div>
+            <div class="highlight-block-middle">
+                <img src="{{ asset('/bundles/connecthollandmain/img/filler-382-125.jpg') }}">
+            </div>
+            <div class="highlight-block-bottom">
+                <p class="title">{{ highlight_data[1] }}</p>
+                <p>{{ highlight_data[2]|striptags[:160]~'...' }}</p>
+                <a href="{{ highlight_data[0] }}" class="link">link</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

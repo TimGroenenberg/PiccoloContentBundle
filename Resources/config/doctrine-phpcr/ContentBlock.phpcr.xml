@@ -1,0 +1,26 @@
+<doctrine-mapping
+    xmlns="http://doctrine-project.org/schemas/phpcr-odm/phpcr-mapping"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://doctrine-project.org/schemas/phpcr-odm/phpcr-mapping
+    https://github.com/doctrine/phpcr-odm/raw/master/doctrine-phpcr-odm-mapping.xsd"
+    >
+
+    <document
+        name="ConnectHolland\PiccoloContentBundle\Document\ContentBlock"
+        referenceable="true"
+        translator="attribute"
+        >
+
+        <locale name="locale"/>
+
+        <field name="title" type="string" translated="true"/>
+        <field name="body" type="string" translated="true"/>
+        
+        <child name="image" node-name="image">
+            <cascade>
+                <cascade-persist/>
+            </cascade>
+        </child>
+    </document>
+
+</doctrine-mapping>

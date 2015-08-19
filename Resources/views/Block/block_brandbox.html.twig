@@ -1,0 +1,33 @@
+{% block block %}
+    {% if block.brandboxImage %}
+        <div class="content-block-content">
+            <div class="content-block-image">
+                {% if block.style == "large" %}
+                    <div class="brandbox-image-large" style="background-image: url('{{ cmf_media_display_url(block.brandboxImage) }}');">
+                {% elseif block.style == "small" %}
+                    <div class="brandbox-image-small" style="background-image: url('{{ cmf_media_display_url(block.brandboxImage) }}');">
+                {% endif %}
+                </div>
+
+                {% if block.title or block.body %}
+                <div id="brandboxHolder">
+                    <div class="brandbox-content">
+                        {% if block.title %}
+                            <div class="brandbox-title"><h1>{{ block.title[:80]|striptags()|raw }}</h1></div>
+                        {% endif %}
+                        {% if block.body %}
+                            <div class="brandbox-body">{{ block.body[:200]|striptags('<span>')|raw }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <script type="text/javascript">
+            if ("{{block.style}}" == "large") {
+                var brandboxHolder = document.getElementById("brandboxHolder");
+                brandboxHolder.className = brandboxHolder.className + "big-holder";
+            }
+        </script>
+    {% endif %}
+{% endblock %}

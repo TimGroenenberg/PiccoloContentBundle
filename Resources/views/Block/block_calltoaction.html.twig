@@ -1,0 +1,29 @@
+{% extends 'CmfBlockBundle:Block:block_base.html.twig' %}
+{% block block %}
+    {% if block.title %}
+	    <div class="content-block-title">
+	        <h2>{{ block.title|raw }}</h2>
+	    </div>
+    {% endif %}
+
+	<div class="content-block-content">
+	    <div class="content-block-body">
+	    	{{ block.body|raw }}
+	    </div>
+	    {% if block.image %}
+	    <div class="content-block-image">
+	    	<img src="{{ cmf_media_display_url(block.image, { imagine_filter: 'image_block' }) }}" alt="{{ block.title }}" />
+	    </div>
+	    {% endif %}
+
+	    <a href="{{ block.url }}" target="{{ block.window }}">
+	    	<div class="content-block-button">
+	    		{% if block.label is defined %}
+	    			{{ block.label }}
+	    		{% else %}
+	    			{% trans %}label.click_here{% endtrans %}
+	    		{% endif %}
+	    	</div>
+	    </a>
+    </div>
+{% endblock %}

@@ -1,0 +1,167 @@
+{% extends 'CmfBlockBundle:Block:block_base.html.twig' %}
+{% block block %}
+    {% if block.title %}
+	    <div class="content-block-title">
+	        <h2>{{ block.title|raw }}</h2>
+	    </div>
+    {% endif %}
+
+	<div class="content-block-content" {% if not block.title %}style="margin-top:-30px;"{% endif %}>
+	    <div class="content-block-body">
+	    	<div class="gallery-content">
+    			{% if block.firstImage is not null %}
+		    	<div class="item">
+		    		{% if block.firstImage %}
+			    		{% if block.firstUrl %}
+				    		<a href="{{ block.firstUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.firstImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.firstSubtitle }}" /></a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.firstImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.firstSubtitle }}" />
+				    	{% endif %}
+				    {% endif %}
+				    {% if block.firstSubtitle %}
+				    	{% if block.firstUrl %}
+		    				<h3><a href="{{ block.firstUrl }}">{{ block.firstSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.firstSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.firstBody|length > 110 %}
+		    			{{ block.firstBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.firstBody|raw[:110] }}
+		    		{% endif %}
+		    	</div>
+		    	{% endif %}
+		    	
+		    	{% if block.secondImage is not null %}
+		    	<div class="item">
+		    		{% if block.secondImage %}
+			    		{% if block.secondUrl %}
+			    			<a href="{{ block.secondUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.secondImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.secondSubtitle }}" /></a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.secondImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.secondSubtitle }}" />
+				    	{% endif %}
+				    {% endif %}
+				    {% if block.secondSubtitle %}
+				    	{% if block.secondUrl %}
+		    				<h3><a href="{{ block.secondUrl }}">{{ block.secondSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.secondSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.secondBody|length > 110 %}
+		    			{{ block.secondBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.secondBody|raw[:110] }}
+		    		{% endif %}
+		    	</div>
+		    	{% endif %}
+		    	
+		    	{% if block.thirdImage is not null %}
+		    	<div class="item">
+		    		{% if block.thirdImage %}
+			    		{% if block.thirdUrl %}
+				    		<a href="{{ block.thirdUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.thirdImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.thirdSubtitle }}" />
+				    		</a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.thirdImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.thirdSubtitle }}" />
+				    	{% endif %}
+			    	{% endif %}
+				    {% if block.thirdSubtitle %}
+				    	{% if block.thirdUrl %}
+		    				<h3><a href="{{ block.thirdUrl }}">{{ block.thirdSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.thirdSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.thirdBody|length > 110 %}
+		    			{{ block.thirdBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.thirdBody|raw[:110] }}
+		    		{% endif %}
+	    		</div>
+		    	{% endif %}
+
+	    		{% if block.fourthImage is not null %}
+		    	<div class="item">
+		    		{% if block.fourthImage %}
+			    		{% if block.fourthUrl %}
+				    		<a href="{{ block.fourthUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.fourthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.fourthSubtitle }}" /></a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.fourthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.fourthSubtitle }}" />
+				    	{% endif %}
+				    {% endif %}
+				    {% if block.fourthSubtitle %}
+				    	{% if block.fourthUrl %}
+		    				<h3><a href="{{ block.fourthUrl }}">{{ block.fourthSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.fourthSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.fourthBody|length > 110 %}
+		    			{{ block.fourthBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.fourthBody|raw[:110] }}
+		    		{% endif %}
+		    	</div>
+		    	{% endif %}
+		    	
+		    	{% if block.fifthImage is not null %}
+		    	<div class="item">
+		    		{% if block.fifthImage %}
+			    		{% if block.fifthUrl %}
+				    		<a href="{{ block.fifthUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.fifthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.fifthSubtitle }}" /></a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.fifthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.fifthSubtitle }}" />
+				    	{% endif %}
+				    {% endif %}
+				    {% if block.fifthSubtitle %}
+				    	{% if block.fifthUrl %}
+		    				<h3><a href="{{ block.fifthUrl }}">{{ block.fifthSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.fifthSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.fifthBody|length > 110 %}
+		    			{{ block.fifthBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.fifthBody|raw[:110] }}
+		    		{% endif %}
+		    	</div>
+		    	{% endif %}
+		    	
+		    	{% if block.sixthImage is not null %}
+		    	<div class="item">
+		    		{% if block.sixthImage %}
+			    		{% if block.sixthUrl %}
+				    		<a href="{{ block.sixthUrl }}">
+				    		<img src="{{ cmf_media_display_url(block.sixthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.sixthSubtitle }}" /></a>
+				    	{% else %}
+				    		<img src="{{ cmf_media_display_url(block.sixthImage, { imagine_filter: 'gallery_block' }) }}" alt="{{ block.sixthSubtitle }}" />
+				    	{% endif %}
+				    {% endif %}
+				    {% if block.sixthSubtitle %}
+				    	{% if block.sixthUrl %}
+		    				<h3><a href="{{ block.sixthUrl }}">{{ block.sixthSubtitle|raw }}</a></h3>
+		    			{% else %}
+		    				<h3>{{ block.sixthSubtitle|raw }}</h3>
+		    			{% endif %}
+		    		{% endif %}
+		    		{% if block.sixthBody|length > 110 %}
+		    			{{ block.sixthBody|raw[:110] }}..
+		    		{% else %}
+		    			{{ block.sixthBody|raw[:110] }}
+		    		{% endif %}
+		    	</div>
+	    		{% endif %}
+	    	</div>
+	    	
+	    	<div style="clear:both;"></div>
+	    </div>
+    </div>
+{% endblock %}

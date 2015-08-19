@@ -1,0 +1,76 @@
+assetic:
+    debug:          %kernel.debug%
+    use_controller: false
+    bundles:
+        - CmfCreateBundle
+        - ConnectHollandMainBundle
+        - ConnectHollandPiccoloCmsBundle
+        - FMElfinderBundle
+    sass: /usr/local/bin/sass
+    filters:
+        cssrewrite: ~
+        scss: ~
+
+doctrine:
+    dbal:
+        driver:   %database_driver%
+        host:     %database_host%
+        port:     %database_port%
+        dbname:   %database_name%
+        user:     %database_user%
+        password: %database_password%
+        path:     %database_path%
+        charset:  UTF8
+        types:
+            json: Sonata\Doctrine\Types\JsonType
+    orm:
+        entity_managers:
+            default:
+                connection: default
+                mappings:
+                    FOSUserBundle: ~
+                    SonataMediaBundle: ~
+                    ConnectHollandMainBundle: ~
+
+doctrine_phpcr:
+    session:
+        backend: %phpcr_backend%
+        workspace: %phpcr_workspace%
+        username: %phpcr_user%
+        password: %phpcr_pass%
+    odm:
+        auto_mapping: false
+        auto_generate_proxy_classes: %kernel.debug%
+        locales:
+            nl: [en_US]
+            en: [nl_NL]
+        mappings:
+            SonataMediaBundle:
+                prefix: Sonata\MediaBundle\PHPCR
+            ConnectHollandPiccoloContentBundle:
+                prefix: ConnectHolland\PiccoloContentBundle\Document
+
+knp_menu:
+    twig: true
+
+liip_doctrine_cache:
+    namespaces:
+        meta:
+            type: file_system
+        nodes:
+            type: file_system
+
+swiftmailer:
+    transport:  smtp
+
+twig:
+    globals:
+        company_name: Connect Holland
+        kernel_root_dir: %kernel.root_dir%
+    debug:            %kernel.debug%
+    strict_variables: %kernel.debug%
+    form:
+        resources:
+            - 'CmfMediaBundle:Form:fields.html.twig'
+            - 'ConnectHollandPiccoloCmsBundle:Form:fields.html.twig'
+            - 'SonataMediaBundle:Form:media_widgets.html.twig'

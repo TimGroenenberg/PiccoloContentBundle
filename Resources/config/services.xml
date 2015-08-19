@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <!--<parameters>
+        <parameter key="symfony_cmf_content.document_class">ConnectHolland\PiccoloContentBundle\Document\StandardPage</parameter>
+        <parameter key="symfony_cmf_content.default_template">SymfonyCmfContentBundle:StaticContent:index.html.twig</parameter>
+    </parameters>-->
+
+    <services>
+
+        <service id="connectholland_piccolocontent.block.content" class="ConnectHolland\PiccoloContentBundle\Block\ContentBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.content</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.image" class="ConnectHolland\PiccoloContentBundle\Block\ImageBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.image</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.imagecontent" class="ConnectHolland\PiccoloContentBundle\Block\ImageContentBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.imagecontent</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.brandbox" class="ConnectHolland\PiccoloContentBundle\Block\BrandboxBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.brandbox</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.contact" class="ConnectHolland\PiccoloContentBundle\Block\ContactBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.contact</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.calltoaction" class="ConnectHolland\PiccoloContentBundle\Block\CallToActionBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.calltoaction</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.media" class="ConnectHolland\PiccoloContentBundle\Block\MediaBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.media</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.gallery" class="ConnectHolland\PiccoloContentBundle\Block\GalleryBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.gallery</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.latestnews" class="ConnectHolland\PiccoloContentBundle\Block\LatestNewsBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.latestnews</argument>
+            <argument type="service" id="templating" />
+            <argument type="service" id="doctrine_phpcr.odm.default_document_manager" />
+        </service>
+
+        <service id="connectholland_piccolocontent.block.highlight" class="ConnectHolland\PiccoloContentBundle\Block\HighlightBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.highlight</argument>
+            <argument type="service" id="templating" />
+            <argument type="service" id="doctrine_phpcr.odm.default_document_manager" /> 
+        </service>
+
+        <service id="connectholland_piccolocontent.block.newsoverview" class="ConnectHolland\PiccoloContentBundle\Block\NewsOverviewBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.newsoverview</argument>
+            <argument type="service" id="templating" />
+            <argument type="service" id="doctrine_phpcr.odm.default_document_manager" /> 
+        </service>
+
+        <service id="connectholland_piccolocontent.block.googlemap" class="ConnectHolland\PiccoloContentBundle\Block\GoogleMapBlockService">
+            <tag name="sonata.block" />
+            <argument>connectholland_piccolocontent.block.googlemap</argument>
+            <argument type="service" id="templating" />
+        </service>
+
+        <!--
+        <service id="cmf.block.simple" class="Symfony\Cmf\Bundle\BlockBundle\Block\SimpleBlockService">
+            <tag name="sonata.block" />
+            <argument>cmf.block.simple</argument>
+            <argument type="service" id="templating" />
+        </service>
+        -->
+                
+        <!-- connectholland_piccolo.admin.standardpage:
+       class: ConnectHolland\PiccoloContentBundle\Admin\StandardPageAdmin
+       arguments:
+        - ConnectHolland\PiccoloContentBundle\C
+        - SonataAdminBundle:CRUD
+       tags:
+        - {name: "sonata.admin"}-->
+
+    </services>
+</container>

@@ -1,0 +1,23 @@
+{% if block.dashifiedId is defined %}
+<div id="block{{ block.dashifiedId }}" class="cmf-block {{ block.dashifiedType }}">
+{% else %}
+<div id="cms-block-{{ block.id }}" class="cms-block cms-block-element">
+{% endif %}
+
+{% block block %}
+    {% if block.title %}
+        <div class="content-block-title">
+            <h2>{{ block.title|raw }}</h2>
+        </div>
+    {% endif %}
+
+    <div class="content-block-content">
+        <div class="block-image">
+            <div class="image-spread">
+                {% set runtimeConfig = {"thumbnail": {"size": [50, 50] }} %}
+                    <img src="{{ cmf_media_display_url(block.image, { imagine_filter: 'image_block' }) }}" alt="{{ block.title }}" />
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</div>

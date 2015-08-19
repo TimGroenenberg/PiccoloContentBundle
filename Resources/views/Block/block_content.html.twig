@@ -1,0 +1,14 @@
+{% extends 'CmfBlockBundle:Block:block_base.html.twig' %}
+{% block block %}
+    {% if block.title %}
+	    <div class="content-block-title">
+	        <h2>{{ block.title|raw }}</h2>
+	    </div>
+    {% endif %}
+
+	<div class="content-block-content">
+	    <div class="content-block-body">
+	    	{{ block.body|raw }}
+	    </div>
+    </div>
+{% endblock %}

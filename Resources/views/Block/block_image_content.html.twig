@@ -1,0 +1,40 @@
+{# {% extends 'CmfBlockBundle:Block:block_base.html.twig' %} #}
+
+{# @todo Make base block #}
+
+{% if block.dashifiedId is defined %}
+<div id="block{{ block.dashifiedId }}" class="cmf-block {{ block.dashifiedType }} {{ block.style }}">
+{% else %}
+<div id="cms-block-{{ block.id }}" class="cms-block cms-block-element">
+{% endif %}
+
+{% block block %}
+    {% if block.title %}
+        <div class="content-block-title">
+            <h2>{{ block.title|raw }}</h2>
+        </div>
+    {% endif %}
+
+    <div class="content-block-content">
+        <div class="content-block-image">
+            {% if block.image %}
+                <div class="image">
+                    {#
+                    Set the imagine filter base on the content block context or @todo extend this template for colleciton
+                    or add filters to config
+                    #}
+                    {% set runtimeConfig = {"thumbnail": {"size": [50, 50] }} %}
+                        <img src="{{ cmf_media_display_url(block.image, { imagine_filter: 'content_block' }) }}" alt="{{ block.title }}" />
+                </div>
+            {% endif %}
+        </div>
+        <div class="content-block-body">
+            {{ block.body|raw }}
+        </div>
+
+        {# when text is shorter than image #}
+        <div style="clear:both"></div>
+    </div>
+
+{% endblock %}
+</div>
