@@ -114,6 +114,10 @@
                 <source>form.label_add_item</source>
                 <target>Add item</target>
             </trans-unit>
+            <trans-unit id="form.label_remove_item">
+                <source>form.label_remove_item</source>
+                <target>Are you sure you want to remove this item</target>
+            </trans-unit>
             <trans-unit id="form.label_delete_menu">
                 <source>form.label_delete_menu</source>
                 <target>Delete menu</target>
@@ -510,21 +514,21 @@
                 <source>form.label_image_style_small</source>
                 <target>Small</target>
             </trans-unit>
-            <trans-unit id="title_help">
-                <source>title_help</source>
-                <target>Assign a title for this content block</target>
+            <trans-unit id="urlMediaBlock_help">
+                <source>urlMediaBlock_help</source>
+                <target>Place a YouTube url (http://www.youtube.com/* or http://youtu.be/*)</target>
             </trans-unit>
-            <trans-unit id="label_help">
-                <source>label_help</source>
-                <target>Assign a label for this content block that will be shown on the button</target>
+            <trans-unit id="labelCallToActionBlock_help">
+                <source>labelCallToActionBlock_help</source>
+                <target>This label will be displayed on the button</target>
             </trans-unit>
-            <trans-unit id="url_help">
-                <source>url_help</source>
-                <target>e.g. http://www.example.com or place the name of a page in your website, e.g. example</target>
+            <trans-unit id="urlCallToActionBlock_help">
+                <source>urlCallToActionBlock_help</source>
+                <target>Place a valid link or name from a page located in this website</target>
             </trans-unit>
-            <trans-unit id="window_help">
-                <source>window_help</source>
-                <target>After clicking on the assigned link, let the page be opened in a new window or the current</target>
+            <trans-unit id="windowCallToActionBlock_help">
+                <source>windowCallToActionBlock_help</source>
+                <target>Display the associated link in the current or a new window</target>
             </trans-unit>
             <trans-unit id="page_does_not_exist">
                 <source>page_does_not_exist</source>
@@ -617,6 +621,10 @@
             <trans-unit id="form.label_address">
                 <source>form.label_address</source>
                 <target>Address</target>
+            </trans-unit>
+            <trans-unit id="form.label_city">
+                <source>form.label_city</source>
+                <target>City</target>
             </trans-unit>
         </body>
     </file>

@@ -37,13 +37,14 @@ class NewsOverviewBlockService extends ContentBlockService
         $dm = $this->doctrine;
         $qb = $dm->createQueryBuilder();
         $qb->from()->document('ConnectHolland\PiccoloContentBundle\Document\NewsPage', 'n');
-        $qb->orderBy()->desc()->field('n.date');
+        $qb->orderBy()->desc()->field('n.online');
+        $qb->addOrderBy()->desc()->field('n.date');
         $newsItems = $qb->getQuery()->execute();
 
         $items = array();
 
         foreach ($newsItems as $item) {
-            array_push($items, array($item->getName(), $item->getTitle(), $item->getDate()));
+            array_push($items, array($item->getName(), $item->getTitle(), $item->getDate(), $item->getOnline()));
         }
 
         if ($blockContext->getBlock()->getEnabled()) {

@@ -114,6 +114,10 @@
                 <source>form.label_add_item</source>
                 <target>Voeg item toe</target>
             </trans-unit>
+            <trans-unit id="form.label_remove_item">
+                <source>form.label_remove_item</source>
+                <target>Weet u zeker dat u dit item wilt verwijderen</target>
+            </trans-unit>
             <trans-unit id="form.label_delete_menu">
                 <source>form.label_delete_menu</source>
                 <target>Verwijder menu</target>
@@ -510,21 +514,21 @@
                 <source>form.label_image_style_small</source>
                 <target>Klein</target>
             </trans-unit>
-            <trans-unit id="title_help">
-                <source>title_help</source>
-                <target>Geef een titel voor het nieuwe content blok</target>
+            <trans-unit id="urlMediaBlock_help">
+                <source>urlMediaBlock_help</source>
+                <target>Plaats een YouTube link (http://www.youtube.com/* of http://youtu.be/*)</target>
             </trans-unit>
-            <trans-unit id="label_help">
-                <source>label_help</source>
-                <target>Geef een tekst op die weergeven wordt op de knop</target>
+            <trans-unit id="labelCallToActionBlock_help">
+                <source>labelCallToActionBlock_help</source>
+                <target>Deze tekst zal weergeven worden in de knop</target>
             </trans-unit>
-            <trans-unit id="url_help">
-                <source>url_help</source>
-                <target>e.g. http://www.voorbeeld.nl of de naam van een pagina op uw website, e.g. voorbeeld</target>
+            <trans-unit id="urlCallToActionBlock_help">
+                <source>urlCallToActionBlock_help</source>
+                <target>Plaats een externe link of de naam van een pagina in deze website</target>
             </trans-unit>
-            <trans-unit id="window_help">
-                <source>window_help</source>
-                <target>Geef aan of de pagina wordt geopend in een nieuw venster of in het huidige</target>
+            <trans-unit id="windowCallToActionBlock_help">
+                <source>windowCallToActionBlock_help</source>
+                <target>Weergeef de gekoppelde link in hetzelfde of een nieuw venster</target>
             </trans-unit>
             <trans-unit id="page_does_not_exist">
                 <source>page_does_not_exist</source>
@@ -617,6 +621,10 @@
             <trans-unit id="form.label_address">
                 <source>form.label_address</source>
                 <target>Adres</target>
+            </trans-unit>
+            <trans-unit id="form.label_city">
+                <source>form.label_city</source>
+                <target>Plaats</target>
             </trans-unit>
         </body>
     </file>

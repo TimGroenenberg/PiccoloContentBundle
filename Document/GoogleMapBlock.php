@@ -26,28 +26,41 @@ class GoogleMapBlock extends ContentBlock
      */
     protected $address;
 
+    /**
+     * @PHPCR\String(nullable=false)
+     */
+    protected $city;
+
     public function setTitle($title) {
         $this->title = $title;
     }
 
     public function getTitle() {
-	return $this->title;
+	   return $this->title;
     }
 
     public function setBody($body) {
-	$this->body = $body;
+	   $this->body = $body;
     }
 
     public function getBody() {
-	return $this->body;
+	   return $this->body;
     }
 
     public function setAddress($address) {
-	$this->address = $address;
+	   $this->address = $address;
     }
 
     public function getAddress() {
-	return $this->address;
+	   return $this->address;
+    }
+
+    public function setCity($city) {
+        $this->city = $city;
+    }
+
+    public function getCity() {
+        return $this->city;
     }
 
     public function getType()

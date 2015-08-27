@@ -28,14 +28,10 @@ class NewsPage extends StandardPage {
      * Get the date
      */
     public function getDate() {
-        $keywords = $this->getKeywords();
         return $this->date->format('d-m-Y H:i');
     }
 
     public function setDate(\DateTime $date = null) {
         $this->date = new \DateTime();
-    }
-
-    public function getRelatedPage() {
     }
 }

@@ -14,52 +14,23 @@ use Ivory\GoogleMap\Overlays\InfoWindow;
 
 class DefaultController extends Controller
 {
-    public function getRelatedPageAction()
-    {
-        $dm = $this->get('doctrine_phpcr')->getRepository('ConnectHollandPiccoloContentBundle:NewsPage');
-        $pages = $dm->findAll();
-
-        /*
-        kijk in elke opgehaalde $page wat de keywords zijn
-        vergelijk de eerder opgehaalde $page[keywords] met de huidige
-        als ze overeenkomen, plaats $page[name] in $relatedPages
-        als ze niet overeenkomen, ga door naar volgende en zorg dat er wordt gechecked op de op een na laatste
-        */
-
-        $relatedPages = array();
-        foreach ($pages as $page) {
-            $keywords = $page->getKeywords();
-            if (isset($prevKeywords)) {
-                foreach ($prevKeywords as $keyword) {
-                    if (in_array($keyword, $keywords)) {
-                        $relatedPages[$page->getName()] = $page->getName();
-                    }
-                }
-            }
-            $prevKeywords = $keywords;
-            echo "----------------";
-        }
-
-        return new Response($this->get('translator')->trans('settings_saved'));
-    }
-
     /** @var Ivory\GoogleMapBundle\Model\Map */
-    public function generateGoogleMapAction($address) {
-        $input = $address;
+    public function generateGoogleMapAction($address, $city) {
+        $locationInfo = [$address, $city];
         $map = $this->get('ivory_google_map.map');
         $curl = new \Ivory\HttpAdapter\CurlHttpAdapter();
         
         $geocoder = new \Geocoder\Provider\GoogleMaps($curl);
 
-        $json = file_get_contents('http://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address));
+        $json = file_get_contents('http://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($locationInfo[0]) . '+' . urlencode($locationInfo[1]));
         $obj = json_decode($json);
         if (count($obj->results) === 0)
             return $this->render('ConnectHollandPiccoloContentBundle:Block:googlemap.html.twig', array('map' => $map));
 
-        $address = $geocoder->geocode($address)->first();
+        $location = $geocoder->geocode($locationInfo[0] . ' ' . $locationInfo[1])->first();
 
-        $latitude = $address->getLatitude();
-        $longitude = $address->getLongitude();
+        $latitude = $location->getLatitude();
+        $longitude = $location->getLongitude();
         
         $map->setCenter($latitude, $longitude, true);
         $map->setMapOption('zoom', 12);
@@ -70,7 +41,7 @@ class DefaultController extends Controller
         $map->addMarker($marker);
 
         $infoWindow = new InfoWindow();
-        $infoWindow->setContent('<p>'.$input.'</p>');
+        $infoWindow->setContent('<p>'.$locationInfo[0].'<br/>'.$locationInfo[1].'</p>');
         $infoWindow->setAutoClose(true);
         $marker->setInfoWindow($infoWindow);
 
